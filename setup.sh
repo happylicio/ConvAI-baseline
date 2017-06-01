@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ ! -d data/train-v1.1.json ]; then
+if [ ! -f data/train-v1.1.json ]; then
     wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json -O data/train-v1.1.json
 fi
 
